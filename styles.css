@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #E5E5E5;
+    background-color: white;
 }
 /* nav bar */
 .nav{
@@ -163,6 +163,34 @@ body{
         display: flex;
         font-family: var(--main-font);   
 }
+.add-to-cart{
+    font-family: var(--main-font);
+    color: #919191;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 2px solid #919191;
+    height: 35px;
+    width: 103px;
+}
+.song-name{
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+    width: 240px;
+    height: 20px;
+}
+.artist-name{
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #919191;
+}
+
+
 
 
 /* order summary */
@@ -173,6 +201,13 @@ body{
 
 /* footer*/
 .footer{
+    display: flex;
+    background-color: grey;
+}
+.products h3{
+    padding-left: 15px;
+}
+.products{
     display: flex;
 }
 
