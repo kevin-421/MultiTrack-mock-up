@@ -1,5 +1,5 @@
 :root {
-    --main-font: lato;
+    --main-font: 'Lato', sans-serif;
 }
 *{
     box-sizing: border-box;
@@ -202,13 +202,142 @@ body{
 /* footer*/
 .footer{
     display: flex;
-    background-color: grey;
-}
-.products h3{
-    padding-left: 15px;
+    background-color: #282828;
 }
 .products{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: var(--main-font);
+    color: #FAFAFA;
+    
+}
+.products-list{
+    list-style-type: none;
+    white-space: nowrap;
+    padding-left: 50px;
     display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 20px;
+    color: #919191;
+}
+.resources{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: var(--main-font);
+    color: #FAFAFA;
+}
+.resources-list{
+    list-style-type: none;
+    white-space: nowrap;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 20px;
+    color: #919191;
+}
+.company{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: var(--main-font);
+    color: #FAFAFA;
+}
+.company-list{ 
+    list-style-type: none;
+    white-space: nowrap;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 20px;
+    color: #919191;
+}
+.store{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: var(--main-font);
+    color: #FAFAFA;
+}
+.store-list{ 
+    list-style-type: none;
+    white-space: nowrap;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 20px;
+    color: #919191;
+}
+.extras{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: var(--main-font);
+    color: #FAFAFA;
+}
+.extras-list{ 
+    list-style-type: none;
+    white-space: nowrap;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 20px;
+    color: #919191;
+}
+.account{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: var(--main-font);
+    color: #FAFAFA;
+}
+.account-list{ 
+    list-style-type: none;
+    white-space: nowrap;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 20px;
+    color: #919191;
+}
+.resources-company{
+    display: flex;
+    flex-direction: column;
+}
+.store-extras{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter h4{
+    font-size: 20px;
+    padding-top: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: var(--main-font);
+    color: #FAFAFA;
+    white-space: nowrap;
+}
+.newsletter input{
+    border-color: #282828;
 }
 
 
