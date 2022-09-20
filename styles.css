@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: white;
+    background-color: #E5E5E5;
+    margin: 0px;
 }
 /* nav bar */
 .nav{
@@ -29,7 +30,7 @@ body{
 }
 .split {
     display: flex;
-    padding-left: 50%;
+    padding-left: 211px;
 }
 .split input {
     border-style: none;
@@ -40,7 +41,7 @@ body{
 }
 .underline1 {
     padding-top: 65px;
-    width: 100%;
+    width: 1438px;
     height: 47px;
     border-bottom: 1px solid black;  /* #DADADA */
     position: absolute;
@@ -93,7 +94,7 @@ body{
 }
 .underline2{
     padding-top: 100px;
-    width: 100%;
+    width: 1438px;
     height: 47px;
     border-bottom: 1px solid black;  /* #DADADA */
     position: absolute;
@@ -127,7 +128,7 @@ body{
 }
 .underline3{
     padding-top: 160px;
-    width: 100%;
+    width: 1438px;
     height: 47px;
     border-bottom: 1px solid black;  /* #DADADA */
     position: absolute;
@@ -196,6 +197,13 @@ body{
 /* order summary */
 .order{
     display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border-style: dotted;
+    width: 450px;
+    height: 830px;
+    margin-left: 990px;
+    margin-top: -1224px;
 }
 
 
@@ -203,6 +211,7 @@ body{
 .footer{
     display: flex;
     background-color: #282828;
+    width: 1440px;
 }
 .products{
     font-size: 20px;
@@ -327,7 +336,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-.newsletter h4{
+.newsletter{
     font-size: 20px;
     padding-top: 16px;
     font-weight: 400;
@@ -336,9 +345,107 @@ body{
     color: #FAFAFA;
     white-space: nowrap;
 }
-.newsletter input{
-    border-color: #282828;
+
+.email{
+    display: flex;
+    width: min-content;
+    height: min-content;
+    margin-top: -20px;
+    
 }
+.email input{
+    border: 1px solid #5C5C5C;
+    background-color: #000000;
+    height: 30px;
+    border-radius: 4px;
+    width: 260px;
+}
+.email button{
+    color: #FFFFFF;
+    background-color: #43B1E6;
+    border-style: none;
+    border-radius: 0px 4px 4px 0px;
+    
+}
+
+/* Have a problem? */
+.problem{
+    color:#FAFAFA;
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.questions p{
+    color: #5C5C5C;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: -20px;
+}
+.questions img{
+    padding-left: 5px;
+}
+
+/* socials */
+.socials{
+    display: flex;
+
+}
+.social-img{
+    margin-left: 11px;
+}
+.social-like{
+    margin-left: 80px;
+}
+.social-follow{
+    margin-left: 15px;
+}
+
+
+
+
+.rights{
+    display: flex;
+    white-space: nowrap;
+    height: 50px;
+    width: 1440px;
+    background-color: black;
+    justify-content: space-between;
+    padding-top: 50PX;
+    position: sticky;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: -1121px;
+}
+.rights p{
+    color: #919191;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-left: 110px;
+}
+.terms{
+    color: #919191;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-left: 10px;
+
+}
+.rights img{
+    color: #919191;
+    font-family: var(--main-font);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 45px;
+    padding-right: 120px;
+}
+ 
 
 
 
@@ -348,7 +455,7 @@ body{
 /* underline */
 .underline {
     padding-top: 20px;
-    width: 100%;
+    width: 1438px;
     height: 47px;
     border-bottom: 1px solid black;  /* #DADADA */
     position: absolute;
