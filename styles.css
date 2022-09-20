@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #E5E5E5;
+    background-color: white;
     margin: 0px;
 }
 /* nav bar */
@@ -43,13 +43,13 @@ body{
     padding-top: 65px;
     width: 1438px;
     height: 47px;
-    border-bottom: 1px solid black;  /* #DADADA */
+    border-bottom: 1px solid #DADADA;  /* #DADADA */
     position: absolute;
 }
 
 /* my cart */
 .my-cart{
-    padding-bottom: 40px;
+    padding-top: 60px;
     font-family: var(--main-font);
 }
 .song1 {
@@ -74,6 +74,9 @@ body{
     white-space: nowrap;
     padding-top: 17px;
 }
+.song1 img{
+    padding-top: 10px;
+}
 .multi-wav {
     display: flex;
     color: #919191;
@@ -94,9 +97,9 @@ body{
 }
 .underline2{
     padding-top: 100px;
-    width: 1438px;
+    width: 990px;
     height: 47px;
-    border-bottom: 1px solid black;  /* #DADADA */
+    border-bottom: 1px solid #DADADA;  /* #DADADA */
     position: absolute;
 }
 /* song2 */
@@ -128,9 +131,9 @@ body{
 }
 .underline3{
     padding-top: 160px;
-    width: 1438px;
+    width: 990px;
     height: 47px;
-    border-bottom: 1px solid black;  /* #DADADA */
+    border-bottom: 1px solid #DADADA;  /* #DADADA */
     position: absolute;
 }
 
@@ -194,17 +197,6 @@ body{
 
 
 
-/* order summary */
-.order{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    border-style: dotted;
-    width: 450px;
-    height: 830px;
-    margin-left: 990px;
-    margin-top: -1224px;
-}
 
 
 /* footer*/
@@ -219,6 +211,7 @@ body{
     line-height: 24px;
     font-family: var(--main-font);
     color: #FAFAFA;
+    height: 4px;
     
 }
 .products-list{
@@ -226,6 +219,7 @@ body{
     white-space: nowrap;
     padding-left: 50px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     padding-bottom: 30px;
     font-family: var(--main-font);
@@ -391,7 +385,7 @@ body{
 /* socials */
 .socials{
     display: flex;
-
+    
 }
 .social-img{
     margin-left: 11px;
@@ -434,7 +428,7 @@ body{
     font-weight: 400;
     line-height: 21px;
     padding-left: 10px;
-
+    
 }
 .rights img{
     color: #919191;
@@ -445,18 +439,111 @@ body{
     padding-bottom: 45px;
     padding-right: 120px;
 }
- 
 
 
+/* order summary */
+.order{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 807px;
+    margin-left: 990px;
+    margin-top: -1207px;
+    background-color: #FAFAFA;
+}
+
+.order h1{
+    font-family: var(--main-font);
+    color: #000000;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 33px;
+    padding-top: 55px;
+    padding-right: 40px;
+}
 
 
+.order-summary{
+    font-family: var(--main-font);
+    color:#282828;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-right: 90px;
+}
+.sales-final{
+    font-family: var(--main-font);
+    color: #919191;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-right: 150px;
+}
+.change{
+    color: #43B1E6;
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 290px;
+    margin-top: -47px;
+    width: 250px;
+}
 
+.place-order-btn{
+    color: #FFFFFF;
+    background-color: #43B1E6;
+    border-style: none;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+.policy{
+    font-family: var(--main-font);
+    color: #919191;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    padding-left: 55px;
+    text-align: center;
+}
+.num1{
+    padding-left: 15px;
+}
+.order .payment-method{
+    padding-top: 1110px;
+}
+.american-express{
+    
+}
 
 /* underline */
-.underline {
-    padding-top: 20px;
-    width: 1438px;
+.underline4{
+    padding-top: 82px;
+    width: 358px;
     height: 47px;
-    border-bottom: 1px solid black;  /* #DADADA */
+    border-bottom: 1px solid #DADADA;
+    position: absolute;
+}
+.underline5{
+    padding-top: 82px;
+    width: 358px;
+    height: 47px;
+    border-bottom: 1px solid #DADADA;
+    position: absolute;
+}
+.underline6{
+    padding-top: 82px;
+    width: 358px;
+    height: 47px;
+    border-bottom: 1px solid #DADADA;
+    position: absolute;
+}
+.underline7{
+    padding-top: 82px;
+    width: 358px;
+    height: 47px;
+    border-bottom: 1px solid #DADADA;
     position: absolute;
 }
