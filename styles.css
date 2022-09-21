@@ -55,19 +55,59 @@ body{
 .song1 {
     display: flex;
     font-family: var(--main-font);
+    padding-bottom: 70px;
 }
 
-.remove-save{
+/* remove-save */
+.remove-save1{
     color: #919191;
-    margin-right: 9px;
-    display: inline;
-    font-size: 16px;
-    white-space: nowrap;
-    margin-left: 797px;
-    padding-bottom: 51px;
-    font-family: var(--main-font);
-    
-    
+        margin-right: 9px;
+        display: inline;
+        font-size: 16px;
+        white-space: nowrap;
+        margin-left: 797px;
+        padding-bottom: 51px;
+        font-family: var(--main-font);   
+}
+.remove-save2{
+        color: #919191;
+        margin-right: 9px;
+        display: inline;
+        font-size: 16px;
+        white-space: nowrap;
+        margin-left: 797px;
+        padding-bottom: 51px;
+        font-family: var(--main-font);
+}
+.remove-save3{
+        color: #919191;
+        margin-right: 9px;
+        display: inline;
+        font-size: 16px;
+        white-space: nowrap;
+        margin-left: 797px;
+        padding-bottom: 51px;
+        font-family: var(--main-font);
+}
+.remove-save4{
+    color: #919191;
+        margin-right: 9px;
+        display: inline;
+        font-size: 16px;
+        white-space: nowrap;
+        margin-left: 797px;
+        padding-bottom: 51px;
+        font-family: var(--main-font);
+}
+.remove-save5{
+    color: #919191;
+        margin-right: 9px;
+        display: inline;
+        font-size: 16px;
+        white-space: nowrap;
+        margin-left: 797px;
+        padding-bottom: 51px;
+        font-family: var(--main-font);
 }
 .song1 h3{
     padding-left: 310px;
@@ -98,7 +138,7 @@ body{
 .underline2{
     padding-top: 100px;
     width: 990px;
-    height: 47px;
+    height: 150px;
     border-bottom: 1px solid #DADADA;  /* #DADADA */
     position: absolute;
 }
@@ -129,6 +169,15 @@ body{
     white-space: nowrap;
     padding-top: 17px;
 }
+.remove-save2{
+    color: #919191;
+    margin-right: 9px;
+    font-size: 16px;
+    white-space: nowrap;
+    margin-left: 797px;
+    margin-top: 40px;
+    font-family: var(--main-font);
+}
 .underline3{
     padding-top: 160px;
     width: 990px;
@@ -144,6 +193,10 @@ body{
     color: #43B1E6;
     padding-top: 60px;
 }
+.chevron-shopping{
+    display: inline-block;
+    padding-inline: 10px;
+}
 
 /* Saved for later */
 .save{
@@ -157,15 +210,42 @@ body{
     display: flex;
     font-family: var(--main-font);   
 }
+.remove-save3{
+    color: #919191;
+    margin-right: 9px;
+    font-size: 16px;
+    white-space: nowrap;
+    margin-left: 797px;
+    margin-top: -43px;
+    font-family: var(--main-font);
+}
 /* song4 */ 
 .song4{
     display: flex;
+    font-family: var(--main-font);
+}
+.remove-save4{
+    color: #919191;
+    margin-right: 9px;
+    font-size: 16px;
+    white-space: nowrap;
+    margin-left: 797px;
+    margin-top: -43px;
     font-family: var(--main-font);
 }
 /* song5 */
 .song5{
         display: flex;
         font-family: var(--main-font);   
+}
+.remove-save5{
+    color: #919191;
+    margin-right: 9px;
+    font-size: 16px;
+    white-space: nowrap;
+    margin-left: 797px;
+    margin-top: -43px;
+    font-family: var(--main-font);
 }
 .add-to-cart{
     font-family: var(--main-font);
@@ -411,7 +491,7 @@ body{
     position: sticky;
     align-items: center;
     margin-top: 150px;
-    margin-left: -1121px;
+    margin-left: -1134px;
 }
 .rights p{
     color: #919191;
@@ -447,12 +527,11 @@ body{
     align-items: center;
     flex-direction: column;
     width: 450px;
-    height: 807px;
+    height: 871px;
     margin-left: 990px;
-    margin-top: -1207px;
+    margin-top: -1270px;
     background-color: #FAFAFA;
 }
-
 .order h1{
     font-family: var(--main-font);
     color: #000000;
@@ -512,7 +591,7 @@ body{
     padding-left: 15px;
 }
 .order .payment-method{
-    padding-top: 1110px;
+    padding-top: 0px;
 }
 .american-express{
     
@@ -520,30 +599,57 @@ body{
 
 /* underline */
 .underline4{
-    padding-top: 82px;
-    width: 358px;
+    padding-top: 100px;
+    width: 990px;
     height: 47px;
-    border-bottom: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;  /* #DADADA */
     position: absolute;
 }
 .underline5{
-    padding-top: 82px;
-    width: 358px;
+    padding-top: 100px;
+    width: 990px;
     height: 47px;
-    border-bottom: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;  /* #DADADA */
     position: absolute;
 }
 .underline6{
+    padding-top: 90px;
+    width: 990px;
+    height: 47px;
+    border-bottom: 1px solid #DADADA;  /* #DADADA */
+    position: absolute;
+}
+.underline7{
+    padding-top: 290px;
+    width: 358px;
+    height: 47px;
+    border-bottom: 1px solid #DADADA;
+    position: absolute;
+}
+.underline8{
+    padding-top: 80px;
+    width: 358px;
+    height: 47px;
+    border-bottom: 1px solid #DADADA;
+    position: absolute;
+}
+
+.underline10{
     padding-top: 82px;
     width: 358px;
     height: 47px;
     border-bottom: 1px solid #DADADA;
     position: absolute;
 }
-.underline7{
-    padding-top: 82px;
-    width: 358px;
-    height: 47px;
-    border-bottom: 1px solid #DADADA;
-    position: absolute;
+/* mobile responsive */
+
+@media screen and (max-width: 575px) {
+    .main img{
+        padding-left: 400px;
+        visibility: visible;
+    }
+    .nav ul, .main, .split input{
+        visibility: hidden;
+
+    }
 }
